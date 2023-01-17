@@ -1,0 +1,3 @@
+# Gitignore file
+.virtual_documents/
+.ipynb_checkpoints/
