@@ -1,3 +1,5 @@
 # Gitignore file
+.local/
+
 .virtual_documents/
 .ipynb_checkpoints/
