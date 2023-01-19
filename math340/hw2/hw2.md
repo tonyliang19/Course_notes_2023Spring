@@ -20,6 +20,9 @@ Given there are 40h of production time available this week.
 **How many tons of bands and how mamy tons of coils should be produced to yield greatest profit?**
 
 ### Solution
+Let $x_1 = \text{tons of bands}, x_2 = \text{tons of coils}$
+
+$\max$ $x_1 + x_2$
 
 
 
