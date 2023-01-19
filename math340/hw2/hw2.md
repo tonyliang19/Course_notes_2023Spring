@@ -18,3 +18,18 @@ Based on currently booked orders, following upper bounds are placed on amount of
 Given there are 40h of production time available this week.
 
 **How many tons of bands and how mamy tons of coils should be produced to yield greatest profit?**
+
+### Solution
+
+
+
+## Problem 2 Vanderbei 5th Ed, EX1.2
+a) Write this as Linear programming problem in standrad inequality form
+
+b) Solve the LP by writing down code in Python Pulp
+
+### Solution
+
+a)
+
+b)
