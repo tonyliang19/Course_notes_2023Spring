@@ -24,6 +24,16 @@ Let $x_1 = \text{tons of bands}, x_2 = \text{tons of coils}$
 
 $\max$ $x_1 + x_2$
 
+$\text{maximize}\ 30c + 25b$
+
+$\text{subject to}$
+
+$b >= 0, c>= 0$
+
+$b <= 6000, c <= 4000$
+
+$b/200 + c/140 <= 40$
+
 
 
 ## Problem 2 Vanderbei 5th Ed, EX1.2
