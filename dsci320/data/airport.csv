@@ -1,0 +1,13 @@
+,airport,year,month,temp,rain,snow,precip
+0,Calgary,2000,January,-9.7,0,23.8,10.2
+1,Calgary,2000,May,8.8,22.6,6.4,28.8
+2,Calgary,2000,September,10.7,52.8,0.8,53.6
+3,Montreal,2000,January,-10.1,20,64.8,95.8
+4,Montreal,2000,May,13.3,132.5,0,132.5
+5,Montreal,2000,September,14.3,65.5,0,65.5
+6,Toronto,2000,January,-5.8,16.4,17,29.2
+7,Toronto,2000,May,14.3,124.4,0,124.4
+8,Toronto,2000,September,15.9,70,0,70
+9,Vancouver,2000,January,3.5,134,18.8,151.4
+10,Vancouver,2000,May,11.7,103,0,103
+11,Vancouver,2000,September,15,48,0,48

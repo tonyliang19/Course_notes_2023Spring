@@ -1,0 +1,124 @@
+uni,type,res,pct,state,region,uni_abbr
+Appalachian State University,Nonuse,46,0.4,North Carolina,south,ASU
+Appalachian State University,No,53,0.461,North Carolina,south,ASU
+Appalachian State University,Yes,16,0.139,North Carolina,south,ASU
+Butler University,Nonuse,17,0.25,Indiana,midwest,BU
+Butler University,No,44,0.647,Indiana,midwest,BU
+Butler University,Yes,7,0.103,Indiana,midwest,BU
+Cal Poly San Luis Obispo,Nonuse,7,0.28,California,pacific,CPSLO
+Cal Poly San Luis Obispo,No,10,0.4,California,pacific,CPSLO
+Cal Poly San Luis Obispo,Yes,8,0.32,California,pacific,CPSLO
+Case Western Reserve University,Nonuse,12,0.387,Ohio,midwest,CWRU
+Case Western Reserve University,No,12,0.387,Ohio,midwest,CWRU
+Case Western Reserve University,Yes,7,0.226,Ohio,midwest,CWRU
+Chapman University,Nonuse,19,0.302,California,pacific,Chap
+Chapman University,No,31,0.492,California,pacific,Chap
+Chapman University,Yes,13,0.206,California,pacific,Chap
+Colby College,Nonuse,2,0.143,Maine,northeast,CC
+Colby College,No,11,0.786,Maine,northeast,CC
+Colby College,Yes,1,0.071,Maine,northeast,CC
+College of William and Mary,Nonuse,6,0.375,Virginia,south,WAM
+College of William and Mary,No,7,0.438,Virginia,south,WAM
+College of William and Mary,Yes,3,0.188,Virginia,south,WAM
+Cornell University,Nonuse,51,0.264,New York,northeast,CU
+Cornell University,No,95,0.492,New York,northeast,CU
+Cornell University,Yes,47,0.244,New York,northeast,CU
+Dartmouth College,Nonuse,2,0.2,New Hampshire,northeast,DC
+Dartmouth College,No,3,0.3,New Hampshire,northeast,DC
+Dartmouth College,Yes,5,0.5,New Hampshire,northeast,DC
+Indiana University,Nonuse,5,0.114,Indiana,midwest,IU
+Indiana University,No,30,0.682,Indiana,midwest,IU
+Indiana University,Yes,9,0.205,Indiana,midwest,IU
+Johns Hopkins University,Nonuse,29,0.21,Maryland,northeast,JHU
+Johns Hopkins University,No,76,0.551,Maryland,northeast,JHU
+Johns Hopkins University,Yes,33,0.239,Maryland,northeast,JHU
+Northwestern University,Nonuse,24,0.2,Illinois,midwest,NU
+Northwestern University,No,65,0.542,Illinois,midwest,NU
+Northwestern University,Yes,31,0.258,Illinois,midwest,NU
+Ohio State University,Nonuse,1,0.053,Ohio,midwest,OSU
+Ohio State University,No,12,0.632,Ohio,midwest,OSU
+Ohio State University,Yes,6,0.316,Ohio,midwest,OSU
+Purdue University,Nonuse,8,0.308,Indiana,midwest,PU
+Purdue University,No,13,0.5,Indiana,midwest,PU
+Purdue University,Yes,5,0.192,Indiana,midwest,PU
+San Diego State University,Nonuse,6,0.231,California,pacific,SDSU
+San Diego State University,No,15,0.577,California,pacific,SDSU
+San Diego State University,Yes,5,0.192,California,pacific,SDSU
+Stanford University,Nonuse,37,0.343,California,pacific,SU
+Stanford University,No,58,0.537,California,pacific,SU
+Stanford University,Yes,13,0.12,California,pacific,SU
+Texas A&M University,Nonuse,12,0.222,Texas,mountain,TAU
+Texas A&M University,No,29,0.537,Texas,mountain,TAU
+Texas A&M University,Yes,13,0.241,Texas,mountain,TAU
+Texas Christian University,Nonuse,10,0.385,Texas,mountain,TCU
+Texas Christian University,No,8,0.308,Texas,mountain,TCU
+Texas Christian University,Yes,8,0.308,Texas,mountain,TCU
+Texas Tech University,Nonuse,5,0.385,Texas,mountain,TTU
+Texas Tech University,No,5,0.385,Texas,mountain,TTU
+Texas Tech University,Yes,3,0.231,Texas,mountain,TTU
+UMass Amherst,Nonuse,3,0.25,Massachusetts,northeast,Amherst
+UMass Amherst,No,6,0.5,Massachusetts,northeast,Amherst
+UMass Amherst,Yes,3,0.25,Massachusetts,northeast,Amherst
+University of Alabama,Nonuse,2,0.133,Alabama,south,UOAL
+University of Alabama,No,11,0.733,Alabama,south,UOAL
+University of Alabama,Yes,2,0.133,Alabama,south,UOAL
+University of Arizona,Nonuse,3,0.273,Arizona,pacific,UOAR
+University of Arizona,No,4,0.364,Arizona,pacific,UOAR
+University of Arizona,Yes,4,0.364,Arizona,pacific,UOAR
+University of Arkansas,Nonuse,19,0.288,Arkansas,south,UOAK
+University of Arkansas,No,35,0.53,Arkansas,south,UOAK
+University of Arkansas,Yes,12,0.182,Arkansas,south,UOAK
+"University of California, Berkeley",Nonuse,19,0.209,California,pacific,UOCB
+"University of California, Berkeley",No,47,0.516,California,pacific,UOCB
+"University of California, Berkeley",Yes,25,0.275,California,pacific,UOCB
+"University of California, Davis",Nonuse,6,0.353,California,pacific,UOCD
+"University of California, Davis",No,8,0.471,California,pacific,UOCD
+"University of California, Davis",Yes,3,0.176,California,pacific,UOCD
+"University of California, Los Angeles",Nonuse,5,0.385,California,pacific,UOCLA
+"University of California, Los Angeles",No,7,0.538,California,pacific,UOCLA
+"University of California, Los Angeles",Yes,1,0.077,California,pacific,UOCLA
+"University of California, Santa Barbara",Nonuse,17,0.227,California,pacific,UOCSB
+"University of California, Santa Barbara",No,34,0.453,California,pacific,UOCSB
+"University of California, Santa Barbara",Yes,24,0.32,California,pacific,UOCSB
+University of Georgia,Nonuse,1,0.091,Georgia,south,UOG
+University of Georgia,No,9,0.818,Georgia,south,UOG
+University of Georgia,Yes,1,0.091,Georgia,south,UOG
+University of Illinois,Nonuse,8,0.17,Illinois,midwest,UOI
+University of Illinois,No,29,0.617,Illinois,midwest,UOI
+University of Illinois,Yes,10,0.213,Illinois,midwest,UOI
+University of Kansas,Nonuse,2,0.2,Kansas,midwest,UOK
+University of Kansas,No,5,0.5,Kansas,midwest,UOK
+University of Kansas,Yes,3,0.3,Kansas,midwest,UOK
+University of Michigan,Nonuse,23,0.267,Michigan,midwest,Mich
+University of Michigan,No,49,0.57,Michigan,midwest,Mich
+University of Michigan,Yes,14,0.163,Michigan,midwest,Mich
+University of Missouri,Nonuse,8,0.267,Missouri,midwest,Miss
+University of Missouri,No,15,0.5,Missouri,midwest,Miss
+University of Missouri,Yes,7,0.233,Missouri,midwest,Miss
+University of North Carolina,Nonuse,3,0.25,North Carolina,south,UONC
+University of North Carolina,No,8,0.667,North Carolina,south,UONC
+University of North Carolina,Yes,1,0.083,North Carolina,south,UONC
+University of Pennsylvania,Nonuse,24,0.222,Pennsylvania,northeast,UOP
+University of Pennsylvania,No,60,0.556,Pennsylvania,northeast,UOP
+University of Pennsylvania,Yes,24,0.222,Pennsylvania,northeast,UOP
+University of Richmond,Nonuse,7,0.389,Virginia,south,UOR
+University of Richmond,No,9,0.5,Virginia,south,UOR
+University of Richmond,Yes,2,0.111,Virginia,south,UOR
+University of Southern California,Nonuse,2,0.2,California,pacific,UOSC
+University of Southern California,No,7,0.7,California,pacific,UOSC
+University of Southern California,Yes,1,0.1,California,pacific,UOSC
+University of Texas,Nonuse,26,0.356,Texas,mountain,UOT
+University of Texas,No,35,0.479,Texas,mountain,UOT
+University of Texas,Yes,12,0.164,Texas,mountain,UOT
+University of Virginia,Nonuse,8,0.444,Virginia,south,UOV
+University of Virginia,No,7,0.389,Virginia,south,UOV
+University of Virginia,Yes,3,0.167,Virginia,south,UOV
+University of Wisconsin-Madison,Nonuse,21,0.167,Wisconsin,midwest,UOW
+University of Wisconsin-Madison,No,71,0.563,Wisconsin,midwest,UOW
+University of Wisconsin-Madison,Yes,34,0.27,Wisconsin,midwest,UOW
+Vanderbilt University,Nonuse,12,0.122,Tennessee,south,VU
+Vanderbilt University,No,63,0.643,Tennessee,south,VU
+Vanderbilt University,Yes,23,0.235,Tennessee,south,VU
+Washington State University,Nonuse,6,0.231,Washington,pacific,WSU
+Washington State University,No,12,0.462,Washington,pacific,WSU
+Washington State University,Yes,8,0.308,Washington,pacific,WSU
