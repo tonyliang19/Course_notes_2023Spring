@@ -7,3 +7,5 @@ This repo should store notes for 2023 Spring term courses:
 - ECON 323
 - MATH 303
 - MATH 340
+
+Note: DSCI310 is for TAing only
