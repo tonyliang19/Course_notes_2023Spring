@@ -1,0 +1,3 @@
+[submodule "econ323/ECON323_2023_Spring"]
+	path = econ323/ECON323_2023_Spring
+	url = https://github.com/tonyliang19/ECON323_2023_Spring.git
