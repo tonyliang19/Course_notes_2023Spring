@@ -48,7 +48,7 @@ Other issue could be the `size` and the proportions of the item and its represen
 # Given Vis. Redesign
 
 
-> Import image here (drawing)
+![](poop_redesign.png)
 
 
 
@@ -68,33 +68,38 @@ Retrieved from :[https://www.bbc.com/sport/football/44388118](https://www.bbc.co
 
 # Selected Vis. Critique
 
-Let **item** be the **POOP**
 
 ### Data Represented:
 
+The data is represented with name of player, country of the player, total number of goals, and goals are also differentiated by which year the ball was used when the player scored, whereas each of these balls look different as well. Note some goals are scored of a same time of the match (this could be hard to ilustrate). And it concludes to the following features:
+
+- `Name` , nominal
+- `Country`, nominal
+- `Number of Goals`, quantitative
+- `Ball year with shape` (quite hard to describe this), ordinal
+- `Score time`, Temporal, possibly but is hard to describe, since not all players have it
 
 ### Data encoding:
 
-
+This visualization likely used `mark_point`, but each of the point is a specific picture (another mark). Plus, the flags of the nationality could be of another mark that references url. Channels are like: `x` for goals, `y` for names, `text` for special annotations (times of goals).
 
 ### Critique the visualization by expanding on the characteristics of the channels and how they are suited for the given attribute
 
-
-
+The use of a diifferent ball (x channel)of a year helped in popout, and we could clearly that a player scored many goals with that ball, which could tell us the player scored particularly many times in that World Cup (WC). Also, this shows a natural grouping, when a player scores many times in different WCs. The `y`channels has good discriminiability and accuracy, where we could see the distinct players and their country played sort by number of goals.
 
 ### Question the visualization answer:
 
+Top scorers of soccer players in the World Cup, with number of goals scored in all their World cup matches.
 
 ### Visualization is effective:
 
+We could see whom are the top scorers of World Cup, and the country they're from, specifically Brazilians and Germans scored quite a lot, this might also indicate they usually have good fowards in international competitions.
 
 ### Visualization is ineffective:
 
+The different ball and corresponding year helped to denote which world cup a player scored a lot, but this could be an issue when the timeline is long enough, i.e. its hard now to tell which ball is which since they all look similar to each one. The special label of text to tell that some goals are scored at specific time could mislead readers, and questions why are only these times mentioned? and what about other goals? does it have special meaning?
 
-
-
-
-
+` 
 # Selected Vis. Redesign
 
-> Import selected redign here (drawing)
+![](selected_redesign.png)
