@@ -8,8 +8,13 @@ This repo should store notes for 2023 Spring term courses:
 - MATH 303
 - MATH 340
 
-And this is the schedule:
+And this is my schedule:
 
 ![](schedule.jpg)
+
+
+This is cassie's schedule:
+
+![](cassie_schedule.jpg)
 
 Note: DSCI310 is for TAing only
