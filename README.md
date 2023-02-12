@@ -10,11 +10,11 @@ This repo should store notes for 2023 Spring term courses:
 
 And this is my schedule:
 
-![](schedule.jpg)
+![](schedules/schedule.jpg)
 
 
 This is cassie's schedule:
 
-![](cassie_schedule.jpg)
+![](schedules/cassie_schedule.jpg)
 
 Note: DSCI310 is for TAing only
