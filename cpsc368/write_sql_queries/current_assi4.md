@@ -26,14 +26,14 @@ best sellers).
 2.  Which genre(s) are the most popular amongst the books that have been on a bestseller
 list?
     
-        SELECT bt.genreName
-        FROM Book b BookType bt 
-        WHERE b.bestseller = 1
-        GROUP BY bt. genreName
-        HAVING Count(*) >= ALL( SELECT Count(*)    
-                                FROM Book b2, BookType bt2
-                                WHERE b2.bestseller = 1
-                                GROUP BY bt2.genreName)
+        SELECT      bt.genreName
+        FROM        Book b BookType bt 
+        WHERE       b.bestseller = 1
+        GROUP BY    bt. genreName
+        HAVING      Count(*) >=     ALL(SELECT Count(*)    
+                                        FROM Book b2, BookType bt2
+                                        WHERE b2.bestseller = 1
+                                        GROUP BY bt2.genreName)
 
 
 
@@ -47,26 +47,26 @@ answer must use an aggregate operator.
         GROUP BY id
         HAVING COUNT(a.id) = 1
         
-        SELECT firstName, lastName
+        SELECT  firstName, lastName
         FROM    Author a NATURAL INNER JOIN Written w
-        WHERE a.id NOT IN (SELECT * FROM authorWrittenOne)
+        WHERE   a.id NOT IN (SELECT * FROM authorWrittenOne)
 
 4. Find the first and last names of all authors who have written more than one book. Your
 answer must not use an aggregate operator.
 
-        SELECT firstName lastName
+        SELECT  firstName lastName
         FROM    Author a NATURAL INNER JOIN Written w
-        WHERE a.id NOT UNIQUE ( SELECT a.id FROM
-                                FROM written w2
-                                WHERE a.id = w2.authordID)
+        WHERE   a.id NOT UNIQUE (   SELECT a.id FROM
+                                    FROM written w2
+                                    WHERE a.id = w2.authordID)
 
 
 5. How many books has each province borrowed? 
 
-        SELECT  COUNT(Distinct b.userID, b.bid), a.province
-        FROM    Address a, Borrows b, User u
-        WHERE   a.id = u.address() AND b.userID = u.id 
-        GROUP BY a.province
+        SELECT      COUNT(Distinct b.userID, b.bid), a.province
+        FROM        Address a, Borrows b, User u
+        WHERE       a.id = u.address() AND b.userID = u.id 
+        GROUP BY    a.province
 
 6. Each province/territory has run a campaign to encourage residents to use the library
 more often. Find the provinces and/or territories that have had an increase in the
@@ -74,17 +74,17 @@ number of people who have borrowed a book in 2022 when compared to their average
 across previous years
 
         CREATE VIEW countBefore2022(counts) AS
-        SELECT   COUNT(DISCTINCT b.bid, b.userID)
-        FROM    Borrows br, Book b, User u
-        WHERE   b.borrowYear < 2022 AND br.bid = b.isbn AND
-                br.userID = u.id
+        SELECT      COUNT(DISCTINCT b.bid, b.userID)
+        FROM        Borrows br, Book b, User u
+        WHERE       b.borrowYear < 2022 AND br.bid = b.isbn AND
+                    br.userID = u.id
         GROUP BY    b.borrowYear
 
-        SELECT province
-        FROM   Address a NATURAL JOIN Borrows br NATURAL JOIN User u
-        WHERE borrowYear = 2022
-        GROUP BY a.province
-        HAVING COUNT( DISTINCT b.bid, b.userID) > AVG(SELECT * countBefore2022)
+        SELECT      province
+        FROM        Address a NATURAL JOIN Borrows br NATURAL JOIN User u
+        WHERE       borrowYear = 2022
+        GROUP BY    a.province
+        HAVING      COUNT( DISTINCT b.bid, b.userID) > AVG(SELECT * countBefore2022)
 
 
 7. Find the most common genre for each author.
@@ -95,10 +95,10 @@ across previous years
         GROUP BY genreName
         HAVING COUNT(genreName) 
 
-        SELECT a.id, bt.genreName
-        FROM   Author a NATURAL JOIN BookType bt
-        GROUP BY a.id, bt.genreName
-        HAVING COUNT(*) > ALL (SELECT * FROM countGenres)
+        SELECT      a.id, bt.genreName
+        FROM        Author a NATURAL JOIN BookType bt
+        GROUP BY    a.id, bt.genreName
+        HAVING      COUNT(*) > ALL (SELECT * FROM countGenres)
 
 
 
@@ -108,15 +108,15 @@ readers (ages 0 to 12), young adults (13 to 19), adults (19 to 55), and seniors 
 Find the books that have been read by every age group.
 
         CREATE VIEW notReadBooks(isbn, title) AS
-        SELECT b.isbn, DISTINCT b.title
-        FROM  Book b, Borrows br, User u  
-        WHERE   b.id = br.bid AND br.userID = u.id AND
-        GROUP BY   b.isbn, b.title
-        HAVING  COUNT(*) = 0
+        SELECT      b.isbn, DISTINCT b.title
+        FROM        Book b, Borrows br, User u  
+        WHERE       b.id = br.bid AND br.userID = u.id AND
+        GROUP BY    b.isbn, b.title
+        HAVING      COUNT(*) = 0
 
-        SELECT b.title
+        SELECT  b.title
         FROM    Book b
-        WHERE b.isbn NOT IN (SELECT * FROM notREADBooks)
+        WHERE   b.isbn NOT IN (SELECT * FROM notREADBooks)
 
 9. Find the number of brand new users for libraries in each province and territory for 2022.
 
