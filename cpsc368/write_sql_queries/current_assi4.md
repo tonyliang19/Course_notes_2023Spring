@@ -210,6 +210,15 @@ Find the books that have been read by every age group.
 
 15. Find the youngest person who has written a bestseller.
 
+        CREATE VIEW dobBestSeller(yearOfBirth) AS
+        SELECT  a.yearOfBirth
+        FROM    Author a NATURAL JOIN Written w NATURAL JOIN Book b
+        WHERE   b.bestSeller = 1
+
+        SELECT  *
+        FROM    Author a NATURAL JOIN Written w NATURAL JOIN Book b
+        WHERE   b.bestSeller = 1 AND a.yearOfBirth = (SELECT MAX(yearOfBirth) FROM dobBestSeller dbs)
+
 16. Find the people who have borrowed the same book multiple times.
 
 [BACK TO TOP](#part-1-write-sql-query-to-solve)
