@@ -157,6 +157,18 @@ Find the books that have been read by every age group.
 
 12. Find the most popular book borrowed for each province each year.
 
+        CREATE VIEW bookCounts(userID) AS
+        SELECT      COUNT(br.userID)
+        FROM        Book b, Borrows br, User u, Address a
+        WHERE       u.addressID = a.id AND 
+                    br.userID = u.id 
+        GROUP BY    a.province, br.borrowYear
+
+        SELECT      b.title, a.province, a.borrowYear
+        FROM        Borrows br Natural JOIN Book b NATURAL JOIN User u NATURAL JOIN Address a
+        GROUP BY    a.province, br.borrowYear
+        HAVING      COUNT(br.userID) > ALL(SELECT * FROM bookCounts bc)
+
 
 13. For each province/territory, find the year it had the highest number of users.
 
