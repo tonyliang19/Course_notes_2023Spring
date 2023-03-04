@@ -20,7 +20,7 @@ best sellers).
         
         SELECT *
         FROM    Author a NATURAL JOIN HadBestSeller hbs
-        WHERE   a.nationality LIKE 'Canada'
+        WHERE   a.nationality = 'Canada'
 
 
 2.  Which genre(s) are the most popular amongst the books that have been on a bestseller
@@ -84,7 +84,7 @@ across previous years
         FROM   Address a NATURAL JOIN Borrows br NATURAL JOIN User u
         WHERE borrowYear = 2022
         GROUP BY a.province
-        HAVING COUNT( DISTINCT b.bid, b.userID) > AVG(countBefore2022)
+        HAVING COUNT( DISTINCT b.bid, b.userID) > AVG(SELECT * countBefore2022)
 
 
 7. Find the most common genre for each author.
@@ -98,7 +98,7 @@ across previous years
         SELECT a.id, bt.genreName
         FROM   Author a NATURAL JOIN BookType bt
         GROUP BY a.id, bt.genreName
-        HAVING COUNT(*) > ALL (countGenres)
+        HAVING COUNT(*) > ALL (SELECT * FROM countGenres)
 
 
 
@@ -106,6 +106,17 @@ across previous years
 8. Let’s assume that we have divided our library users into the following age groups: young
 readers (ages 0 to 12), young adults (13 to 19), adults (19 to 55), and seniors (55+).
 Find the books that have been read by every age group.
+
+        CREATE VIEW notReadBooks(isbn, title) AS
+        SELECT b.isbn, DISTINCT b.title
+        FROM  Book b, Borrows br, User u  
+        WHERE   b.id = br.bid AND br.userID = u.id AND
+        GROUP BY   b.isbn, b.title
+        HAVING  COUNT(*) = 0
+
+        SELECT b.title
+        FROM    Book b
+        WHERE b.isbn NOT IN (SELECT * FROM notREADBooks)
 
 9. Find the number of brand new users for libraries in each province and territory for 2022.
 
