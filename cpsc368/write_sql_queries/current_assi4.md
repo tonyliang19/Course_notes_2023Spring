@@ -65,7 +65,7 @@ answer must not use an aggregate operator.
 
         SELECT      COUNT(Distinct b.userID, b.bid), a.province
         FROM        Address a, Borrows b, User u
-        WHERE       a.id = u.address() AND b.userID = u.id 
+        WHERE       a.id = u.addressID AND b.userID = u.id 
         GROUP BY    a.province
 
 6. Each province/territory has run a campaign to encourage residents to use the library
@@ -113,9 +113,9 @@ Find the books that have been read by every age group.
         GROUP BY    b.isbn, b.title
         HAVING      COUNT(*) = 0
 
-        SELECT  b.title
-        FROM    Book b
-        WHERE   b.isbn NOT IN (SELECT * FROM notREADBooks)
+        SELECT      b.title
+        FROM        Book b
+        WHERE       b.isbn NOT IN (SELECT * FROM notREADBooks)
 
 9. Find the number of brand new users for libraries in each province and territory for 2022.
 
@@ -148,6 +148,12 @@ Find the books that have been read by every age group.
 
 11. Find the books that have been read in every province.
 
+        SELECT      DISTINCT b.title
+        FROM        Book b, Borrows br, User u NATURAL JOIN Address a
+        WHERE       b.isbn = br.bid AND br.userID = u.id
+        GROUP BY    a.province
+        HAVING      COUNT(DISTINCT b.title) = COUNT(u.id)
+    
 
 12. Find the most popular book borrowed for each province each year.
 
