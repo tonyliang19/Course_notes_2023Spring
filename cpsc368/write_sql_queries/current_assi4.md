@@ -196,6 +196,18 @@ Find the books that have been read by every age group.
 
 14. Find the nationality that has had the most bestsellers.
 
+        CREATE VIEW         bestSellersPerCountry bspc AS
+        SELECT              COUNT(*)
+        FROM                Author a NATURAL JOIN Book b NATURAL JOIN Written w
+        WHERE               b.bestSeller = 1
+        GROUP BY            a.id
+
+        SELECT              a.nationality, a.id
+        FROM                Author a NATURAL JOIN Book b NATURAL JOIN Written w
+        WHERE               b.bestSeller = 1 
+        GROUP BY            a.id
+        HAVING COUNT(*)     >= ALL(SELECT COUNT(*) FROM bestSellersPerCountry bspc)
+
 15. Find the youngest person who has written a bestseller.
 
 16. Find the people who have borrowed the same book multiple times.
