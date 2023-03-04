@@ -47,9 +47,15 @@ answer must use an aggregate operator.
         GROUP BY id
         HAVING COUNT(a.id) = 1
         
-        SELECT firstName lastName
+        SELECT firstName, lastName
         FROM    Author a NATURAL INNER JOIN Written w
         WHERE a.id NOT IN (SELECT * FROM authorWrittenOne)
 
 4. Find the first and last names of all authors who have written more than one book. Your
 answer must not use an aggregate operator.
+
+        SELECT firstName lastName
+        FROM    Author a NATURAL INNER JOIN Written w
+        WHERE a.id NOT UNIQUE ( SELECT a.id FROM
+                                FROM written w2
+                                WHERE a.id = w2.authordID)
