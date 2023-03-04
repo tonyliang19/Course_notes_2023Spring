@@ -12,10 +12,13 @@ Template:
 best sellers).
 
     
-    CREATE VIEW HadBestSeller(authorID) AS
-    SELECT w.authorID
-    FROM   Book b, Written w
-    WHERE  b.bestSeller = 1  AND w.bid = b.isbn
+    > CREATE VIEW HadBestSeller(authorID) AS
+    >
+    > SELECT w.authorID
+    >
+    > FROM   Book b, Written w
+    >
+    > WHERE  b.bestSeller = 1  AND w.bid = b.isbn
     
 
 
@@ -26,7 +29,23 @@ best sellers).
 
 2.  Which genre(s) are the most popular amongst the books that have been on a bestseller
 list?
+    
 
+    > SELECT bt.genreName
+    >
+    > FROM Book b BookType bt 
+    >
+    > WHERE b.bestseller = 1
+    >
+    > GROUP BY bt. genreName
+    >
+    > HAVING Count(*) >= ALL(SELECT Count(*)
+    >
+    >                       FROM Book b2, BookType bt2
+    >
+    >                       WHERE b2.bestseller = 1
+    >    
+    >                       GROUP BY bt2.genreName)
 
 
 
