@@ -120,6 +120,19 @@ Find the books that have been read by every age group.
 
 9. Find the number of brand new users for libraries in each province and territory for 2022.
 
+        CREATE VIEW oldUsers(id) AS
+        SELECT      u.id
+        FROM        Address a, Borrows br, User u
+        WHERE       a.id = u.id AND br.year < 2022 AND br.userID = u.id
+
+        SELECT      COUNT(*)
+        FROM        Address a, Borrows br, User u
+        WHERE       a.id = u.id AND 
+                    br.borrowYear = 2022 AND 
+                    br.userID = u.id AND 
+                    u.id NOT IN (oldUsers.id)
+        GROUP BY    a.province
+
 
 10. Find the most popular genre for each year.
 
@@ -137,3 +150,5 @@ Find the books that have been read by every age group.
 15. Find the youngest person who has written a bestseller.
 
 16. Find the people who have borrowed the same book multiple times.
+
+[BACK TO TOP](#part-1-write-sql-query-to-solve)
