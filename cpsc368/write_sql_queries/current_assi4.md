@@ -81,7 +81,37 @@ across previous years
         GROUP BY    b.borrowYear
 
         SELECT province
-        FROM   Address a NATURAL JOIN Borrows br NATURAL    JOIN User u
+        FROM   Address a NATURAL JOIN Borrows br NATURAL JOIN User u
         WHERE borrowYear = 2022
         GROUP BY a.province
         HAVING COUNT( DISTINCT b.bid, b.userID) > AVG(countBefore2022)
+
+
+7. Find the most common genre for each author.
+
+
+
+
+8. Let’s assume that we have divided our library users into the following age groups: young
+readers (ages 0 to 12), young adults (13 to 19), adults (19 to 55), and seniors (55+).
+Find the books that have been read by every age group.
+
+9. Find the number of brand new users for libraries in each province and territory for 2022.
+
+
+10. Find the most popular genre for each year.
+
+
+11. Find the books that have been read in every province.
+
+
+12. Find the most popular book borrowed for each province each year.
+
+
+13. For each province/territory, find the year it had the highest number of users.
+
+14. Find the nationality that has had the most bestsellers.
+
+15. Find the youngest person who has written a bestseller.
+
+16. Find the people who have borrowed the same book multiple times.
