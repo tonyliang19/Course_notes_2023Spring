@@ -150,6 +150,7 @@ Find the books that have been read by every age group.
 
 11. Find the books that have been read in every province.
 
+        // This one is very weird
         SELECT      DISTINCT b.title
         FROM        Book b, Borrows br, User u NATURAL JOIN Address a
         WHERE       b.isbn = br.bid AND br.userID = u.id
@@ -163,7 +164,8 @@ Find the books that have been read by every age group.
         SELECT      COUNT(br.userID)
         FROM        Book b, Borrows br, User u, Address a
         WHERE       u.addressID = a.id AND 
-                    br.userID = u.id 
+                    br.userID = u.id AND
+                    br.bid = b.isbn
         GROUP BY    a.province, br.borrowYear
 
         SELECT      b.title, a.province, a.borrowYear
@@ -174,10 +176,21 @@ Find the books that have been read by every age group.
 
 13. For each province/territory, find the year it had the highest number of users.
 
-        SELECT      br.borrowYear
+        CREATE VIEW bookCounts(userID) AS
+        SELECT      COUNT(br.userID)
+        FROM        Book b, Borrows br, User u, Address a
+        WHERE       u.addressID = a.id AND 
+                    br.userID = u.id AND
+                    br.bid = b.isbn
+        GROUP BY    br.borrowYear
+
+
+        SELECT      br.borrowYear, a.province
         FROM        Address a, Borrows br, User u
-        WHERE       u.id = br.userID AND
-        GROUP BY    a.province, br.borrowYear
+        WHERE       u.id = br.userID AND 
+                    br.bid = b.isbn AND
+                    u.addressID = a.id
+        GROUP BY    br.borrowYear, a.province
         HAVING      COUNT(br.userID) > ALL(SELECT * FROM bookCounts bc)
 
 
