@@ -72,3 +72,16 @@ answer must not use an aggregate operator.
 more often. Find the provinces and/or territories that have had an increase in the
 number of people who have borrowed a book in 2022 when compared to their average
 across previous years
+
+        CREATE VIEW countBefore2022(counts) as
+        SELECT   COUNT(DISCTINCT b.bid, b.userID)
+        FROM    Borrows br, Book b, User u
+        WHERE   b.borrowYear < 2022 AND br.bid = b.isbn AND
+                br.userID = u.id
+        GROUP BY    b.borrowYear
+
+        SELECT province
+        FROM   Address a NATURAL JOIN Borrows br NATURAL    JOIN User u
+        WHERE borrowYear = 2022
+        GROUP BY a.province
+        HAVING COUNT( DISTINCT b.bid, b.userID) > AVG(countBefore2022)
