@@ -59,3 +59,11 @@ answer must not use an aggregate operator.
         WHERE a.id NOT UNIQUE ( SELECT a.id FROM
                                 FROM written w2
                                 WHERE a.id = w2.authordID)
+
+
+5. How many books has each province borrowed? 
+
+    SELECT  COUNT(Distinct b.userID, b.bid), a.province
+    FROM    Address a, Borrows b, User u
+    WHERE   a.id = u.address() AND b.userID = u.id 
+    GROUP BY a.province
