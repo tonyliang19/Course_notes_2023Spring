@@ -93,7 +93,6 @@ across previous years
         SELECT COUNT(*)
         FROM Author NATURAL JOIN Written NATURAL JOIN BookType
         GROUP BY genreName
-        HAVING COUNT(genreName) 
 
         SELECT      a.id, bt.genreName
         FROM        Author a NATURAL JOIN BookType bt
@@ -135,6 +134,16 @@ Find the books that have been read by every age group.
 
 
 10. Find the most popular genre for each year.
+
+        CREATE VIEW countGenres(count) AS
+        SELECT      COUNT(*)
+        FROM        BookType bt NATURAL JOIN Borrows br NATURAL JOIN User u
+        GROUP BY    genreName
+
+        SELECT      br.borrowYear, bt.genreName
+        FROM        BookType bt NATURAL JOIN Borrows br NATURAL JOIN User u
+        GROUP BY    br.borrowYear, bt.genreName
+        HAVING      COUNT(*) >= ALL (SELECT * FROM countGenres)
 
 
 11. Find the books that have been read in every province.
