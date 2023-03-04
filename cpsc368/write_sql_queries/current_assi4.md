@@ -63,7 +63,12 @@ answer must not use an aggregate operator.
 
 5. How many books has each province borrowed? 
 
-    SELECT  COUNT(Distinct b.userID, b.bid), a.province
-    FROM    Address a, Borrows b, User u
-    WHERE   a.id = u.address() AND b.userID = u.id 
-    GROUP BY a.province
+        SELECT  COUNT(Distinct b.userID, b.bid), a.province
+        FROM    Address a, Borrows b, User u
+        WHERE   a.id = u.address() AND b.userID = u.id 
+        GROUP BY a.province
+
+6. Each province/territory has run a campaign to encourage residents to use the library
+more often. Find the provinces and/or territories that have had an increase in the
+number of people who have borrowed a book in 2022 when compared to their average
+across previous years
