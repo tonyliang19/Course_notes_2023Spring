@@ -40,9 +40,16 @@ list?
 3. Find the first and last names of all authors who have written more than one book. Your
 answer must use an aggregate operator.
 
-        SELECT
-        FROM
-        WHERE
-        GROUP BY
-        HAVING
+        CREATE VIEW authorWrittenOne(id) AS
+        SELECT  a.id
+        FROM    Author a, Written w
+        WHERE   a.id = w.authorID
+        GROUP BY id
+        HAVING COUNT(a.id) = 1
+        
+        SELECT firstName lastName
+        FROM    Author a NATURAL INNER JOIN Written w
+        WHERE a.id NOT IN (SELECT * FROM authorWrittenOne)
 
+4. Find the first and last names of all authors who have written more than one book. Your
+answer must not use an aggregate operator.
