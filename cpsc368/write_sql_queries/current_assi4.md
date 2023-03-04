@@ -63,9 +63,11 @@ answer must not use an aggregate operator.
 
 5. How many books has each province borrowed? 
 
-        SELECT      COUNT(Distinct b.userID, b.bid), a.province
-        FROM        Address a, Borrows b, User u
-        WHERE       a.id = u.addressID AND b.userID = u.id 
+        SELECT      COUNT(Distinct b.isbn), a.province
+        FROM        Address a, Borrows br, User u, Book b
+        WHERE       a.id = u.addressID AND 
+                    br.userID = u.id AND 
+                    br.bid = b.isbn
         GROUP BY    a.province
 
 6. Each province/territory has run a campaign to encourage residents to use the library
@@ -171,6 +173,13 @@ Find the books that have been read by every age group.
 
 
 13. For each province/territory, find the year it had the highest number of users.
+
+        SELECT      br.borrowYear
+        FROM        Address a, Borrows br, User u
+        WHERE       u.id = br.userID AND
+        GROUP BY    a.province, br.borrowYear
+        HAVING      COUNT(br.userID) > ALL(SELECT * FROM bookCounts bc)
+
 
 14. Find the nationality that has had the most bestsellers.
 
