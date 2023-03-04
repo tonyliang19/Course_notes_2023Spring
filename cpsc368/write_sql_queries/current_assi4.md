@@ -73,7 +73,7 @@ more often. Find the provinces and/or territories that have had an increase in t
 number of people who have borrowed a book in 2022 when compared to their average
 across previous years
 
-        CREATE VIEW countBefore2022(counts) as
+        CREATE VIEW countBefore2022(counts) AS
         SELECT   COUNT(DISCTINCT b.bid, b.userID)
         FROM    Borrows br, Book b, User u
         WHERE   b.borrowYear < 2022 AND br.bid = b.isbn AND
@@ -88,6 +88,17 @@ across previous years
 
 
 7. Find the most common genre for each author.
+
+        CREATE VIEW countGenres(count) AS
+        SELECT COUNT(*)
+        FROM Author NATURAL JOIN Written NATURAL JOIN BookType
+        GROUP BY genreName
+        HAVING COUNT(genreName) 
+
+        SELECT a.id, bt.genreName
+        FROM   Author a NATURAL JOIN BookType bt
+        GROUP BY a.id, bt.genreName
+        HAVING COUNT(*) > ALL (countGenres)
 
 
 
