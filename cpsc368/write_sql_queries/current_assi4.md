@@ -17,7 +17,6 @@ best sellers).
         FROM   Book b, Written w
         WHERE  b.bestSeller = 1  AND w.bid = b.isbn
 
-        
         SELECT *
         FROM    Author a NATURAL JOIN HadBestSeller hbs
         WHERE   a.nationality = 'Canada'
@@ -100,9 +99,6 @@ across previous years
         FROM        Author a NATURAL JOIN BookType bt
         GROUP BY    a.id, bt.genreName
         HAVING      COUNT(*) > ALL (SELECT * FROM countGenres)
-
-
-
 
 8. Let’s assume that we have divided our library users into the following age groups: young
 readers (ages 0 to 12), young adults (13 to 19), adults (19 to 55), and seniors (55+).
@@ -221,4 +217,12 @@ Find the books that have been read by every age group.
 
 16. Find the people who have borrowed the same book multiple times.
 
+        SELECT      u.id, DISTINCT u.firstName, u.lastName
+        FROM        Borrows br NATURAL JOIN User u
+        GROUP BY    b.bid, b.userID
+        HAVING      COUNT(*) > 1
+
+
 [BACK TO TOP](#part-1-write-sql-query-to-solve)
+
+# Part 2 Evaluate SQL query
