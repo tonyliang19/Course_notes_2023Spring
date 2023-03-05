@@ -1,0 +1,6 @@
+,Area_Name,Area_ID,Park_Name,Park_ID,Squirrel_ID,Primary_Fur_Color,Highlights_in_Fur_Color,Color_Notes,Location,Above_Ground_(Height_in_Feet),Specific_Location,Activities,Interactions_with_Humans,Other_Notes_or_Observations,Squirrel_Latitude_(DD.DDDDDD),Squirrel_Longitude_(-DD.DDDDDD)
+2,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-03,Gray,White,,Ground Plane,,,Digging,Indifferent,,40.859416,-73.933894
+9,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-10,Gray,White,,Ground Plane,,,Digging,Indifferent,,40.859636,-73.933717
+10,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-11,Gray,Black,,Ground Plane,,,Digging,Indifferent,was intimidated by a dog,40.859576,-73.933738
+144,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-05,Gray,,,Ground Plane,,,Digging,Indifferent,,40.735941,-73.99063
+148,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-09,Gray,,,,,,Digging,Runs From,,40.735587,-73.990367

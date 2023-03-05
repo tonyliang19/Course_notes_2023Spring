@@ -1,0 +1,16 @@
+,Area_Name,Area_ID,Park_Name,Park_ID,Squirrel_ID,Primary_Fur_Color,Highlights_in_Fur_Color,Color_Notes,Location,Above_Ground_(Height_in_Feet),Specific_Location,Activities,Interactions_with_Humans,Other_Notes_or_Observations,Squirrel_Latitude_(DD.DDDDDD),Squirrel_Longitude_(-DD.DDDDDD)
+35,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-24,Cinnamon,White,,"Above Ground, Specific Location",20,tree,Sitting,Indifferent,,40.847113,-73.940937
+72,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-06,Gray,Gray,,Above Ground,15,,Sitting,Indifferent,,,
+90,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-24,Gray,Gray,,,,,Sitting,,,,
+112,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-18,Gray,Gray,,Above Ground,4,,Sitting,Indifferent,,40.803616,-73.944464
+113,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-19,Gray,Gray,,Above Ground,4,,Sitting,Indifferent,,40.803413,-73.944207
+114,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-20,Gray,Gray,,Above Ground,4,,Sitting,Indifferent,,40.80338,-73.944148
+115,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-21,Gray,Gray,,Above Ground,4,,Sitting,Indifferent,,40.803392,-73.944228
+130,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-02,Gray,,,"Above Ground, Specific Location",30,in a tree,Sitting,,,40.742255,-73.987433
+134,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-06,Gray,,,"Above Ground, Specific Location",15,in old tree (oval lawn),Sitting,Indifferent,#6 & #7 in same tree,40.742421,-73.98808
+135,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-07,Gray,,,"Above Ground, Specific Location",20,in old tree (oval lawn),Sitting,Indifferent,"#6 & #7 in same tree - In general, visitors/people are trying to coax squirrels and take pictures. They are delighted to see squirrels.",40.742421,-73.98808
+253,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-22,Gray,Gray,,Specific Location,,Tree,Sitting,Indifferent,,,
+254,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-23,Gray,Gray,,Specific Location,,Tree,Sitting,Indifferent,,,
+264,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-33,Gray,Gray,,Specific Location,,Tree,Sitting,Approaches,,,
+386,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-12,Gray,White,,"Above Ground, Specific Location",15,by playground,Sitting,Indifferent,,40.725364,-73.943512
+402,BROOKLYN,D,McCarren Park,22,D-22-14,Cinnamon,White,,"Above Ground, Specific Location",3,in short tree,Sitting,Indifferent,,40.723136,-73.951794

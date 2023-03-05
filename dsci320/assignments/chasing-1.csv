@@ -1,0 +1,44 @@
+,Area_Name,Area_ID,Park_Name,Park_ID,Squirrel_ID,Primary_Fur_Color,Highlights_in_Fur_Color,Color_Notes,Location,Above_Ground_(Height_in_Feet),Specific_Location,Activities,Interactions_with_Humans,Other_Notes_or_Observations,Squirrel_Latitude_(DD.DDDDDD),Squirrel_Longitude_(-DD.DDDDDD)
+20,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-09,Gray,Cinnamon,,Ground Plane,,,Chasing,Indifferent,,40.846197,-73.941026
+36,UPPER MANHATTAN,A,Highbridge Park,3,A-03-01,Gray,Cinnamon,,"Above Ground, Specific Location",2,in tree,Chasing,Watches us from tree,#1 and #2 chasing each other,40.841178,-73.935482
+37,UPPER MANHATTAN,A,Highbridge Park,3,A-03-02,Gray,White,,"Above Ground, Specific Location",2,in tree,Chasing,Runs From,#1 and #2 chasing each other,40.841204,-73.935434
+43,UPPER MANHATTAN,A,Highbridge Park,3,A-03-08,Gray,Cinnamon,,"Above Ground, Specific Location",3,in wall,Chasing,Runs From,"#8 & #9 saw together at start of river overlook, hiding in cracks of cement wall! so cool!",40.842308,-73.933061
+57,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-06,Gray,Gray,,Above Ground,,,Chasing,Indifferent,,40.817544,-73.949016
+58,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-07,Gray,Gray,,Above Ground,,,Chasing,Indifferent,,40.817544,-73.949016
+70,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-04,Gray,Gray,,Ground Plane,,,Chasing,Indifferent,,,
+71,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-05,Gray,Gray,,Ground Plane,,,Chasing,,,,
+81,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-15,Gray,Gray,,Ground Plane,,,Chasing,Indifferent,,,
+82,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-16,Gray,Gray,,Ground Plane,,,Chasing,Indifferent,,,
+88,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-22,Gray,Gray,,Ground Plane,,,Chasing,,,,
+89,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-23,Gray,Gray,,Ground Plane,,,Chasing,,,,
+103,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-09,Gray,Gray,,"Above Ground, Specific Location",2ÛÒ6,small trees,Chasing,Indifferent,"2 were chasing each other through some short trees, others just sat",40.804701,-73.944118
+104,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-10,Gray,Gray,,"Above Ground, Specific Location",2ÛÒ6,small trees,Chasing,Indifferent,"2 were chasing each other through some short trees, others just sat",40.804746,-73.94374
+105,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-11,Gray,Gray,,"Above Ground, Specific Location",2ÛÒ6,small trees,Chasing,Indifferent,"2 were chasing each other through some short trees, others just sat",40.804912,-73.94408
+106,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-12,Gray,Gray,,"Above Ground, Specific Location",2ÛÒ6,small trees,Chasing,Indifferent,"2 were chasing each other through some short trees, others just sat",40.804729,-73.944053
+123,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-29,Gray,Gray,,Above Ground,6,,Chasing,Runs From,,40.80352,-73.943629
+124,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-30,Gray,Gray,,Above Ground,6,,Chasing,Runs From,,40.803507,-73.943661
+163,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-08,Gray,Cinnamon,,Ground Plane,,,Chasing,Indifferent,Being chased by #9,40.733501,-73.984417
+164,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-09,Gray,Cinnamon,,Ground Plane,,,Chasing,Indifferent,Chasing #8,40.733575,-73.984391
+167,CENTRAL MANHATTAN,B,Stuyvesant Square Park,9,B-09-12,Gray,Cinnamon,,Above Ground,20,,Chasing,Indifferent,Juvenile? Playing with #11 in tree,40.733648,-73.984638
+193,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-13,Gray,,,Ground Plane,,,Chasing,Indifferent,Chasing #15,,
+195,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-15,Gray,,,,,,Chasing,Indifferent,Being chased by #13,40.729858,-73.996843
+196,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-16,Gray,,,,,,Chasing,Indifferent,,40.72985,-73.996778
+197,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-17,Gray,,,,,,Chasing,Indifferent,,40.729822,-73.996816
+198,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-18,Gray,,,,,,Chasing,Indifferent,,40.729809,-73.996762
+199,CENTRAL MANHATTAN,B,Washington Square Park,10,B-10-19,Gray,,,,,,Chasing,Indifferent,,40.729939,-73.997068
+241,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-10,Gray,Gray,,Above Ground,30,,Chasing,Indifferent,,,
+242,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-11,Gray,Gray,,Above Ground,30,,Chasing,Indifferent,,,
+281,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-50,Gray,Gray,,Ground Plane,,,Chasing,Indifferent,,,
+282,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-51,Black,Black,,Ground Plane,,,Chasing,Indifferent,,,
+294,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-04,Gray,Gray,,"Ground Plane, Above Ground",,,Chasing,,Siblings? (with #3) Playing (with #3) in fenced yard,40.72263,-73.973109
+308,LOWER MANHATTAN,C,Seward Park,14,C-14-06,Gray,Cinnamon,,Ground Plane,,,Chasing,Indifferent,"Medium bushy, maybe a little younger, agile, sprightly",40.715033,-73.989609
+309,LOWER MANHATTAN,C,Seward Park,14,C-14-07,Gray,Cinnamon,,Ground Plane,,,Chasing,Indifferent,Too quick,40.715208,-73.989534
+322,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-13,Gray,Black,,"Ground Plane, Above Ground",30,,Chasing,,"#13, #14 & #15: Scattering and teasing a Shih Tzu that chased them, runs from dog",40.711417,73.977767
+323,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-14,Gray,Black,,"Ground Plane, Above Ground",30,,Chasing,,"#13, #14 & #15: Scattering and teasing a Shih Tzu that chased them, runs from dog",40.711421,-73.977692
+324,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-15,Gray,Black,,"Ground Plane, Above Ground",30,,Chasing,,"#13, #14 & #15: Scattering and teasing a Shih Tzu that chased them, runs from dog",40.711409,-73.977719
+363,LOWER MANHATTAN,C,Battery Park,20,C-20-15,Gray,White,White bellies,,,,Chasing,,"Flirty, chasing #16, also eating urban farm debris",40.70352,-74.015273
+364,LOWER MANHATTAN,C,Battery Park,20,C-20-16,Gray,White,White bellies,,,,Chasing,,"Flirty, being chased by #15, also eating urban farm debris",40.703487,-74.015278
+377,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-03,Gray,Cinnamon,,Ground Plane,,,Chasing,Approaches,,40.725511,-73.943448
+395,BROOKLYN,D,McCarren Park,22,D-22-07,Cinnamon,,,Ground Plane,,,Chasing,Approaches,Skinny tail ÛÓ was in the baseball field,40.72147,-73.952857
+409,BROOKLYN,D,McCarren Park,22,D-22-21,Gray,"Cinnamon, White",,Above Ground,15,,Chasing,Indifferent,"Started in middle of tree, started chasing others up in branches, jumped from branch to branch",40.720582,-73.952694
+431,BROOKLYN,D,McCarren Park,22,D-22-43,Gray,White,,Above Ground,10,,Chasing,Indifferent,Playing with another squirrel in a tree,40.721026,-73.950765

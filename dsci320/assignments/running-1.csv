@@ -1,0 +1,65 @@
+,Area_Name,Area_ID,Park_Name,Park_ID,Squirrel_ID,Primary_Fur_Color,Highlights_in_Fur_Color,Color_Notes,Location,Above_Ground_(Height_in_Feet),Specific_Location,Activities,Interactions_with_Humans,Other_Notes_or_Observations,Squirrel_Latitude_(DD.DDDDDD),Squirrel_Longitude_(-DD.DDDDDD)
+3,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-04,Gray,White,,Ground Plane,,,Running,Indifferent,,40.859418,-73.933895
+4,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-05,Gray,Cinnamon,,Ground Plane,,,Running,Indifferent,She left food,40.859493,-73.93359
+11,UPPER MANHATTAN,A,Fort Tryon Park,1,A-01-12,Gray,White,,Ground Plane,,,Running,Runs From,,40.859989,-73.934544
+12,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-01,Gray,Gray,,Ground Plane,,,Running,Indifferent,,40.845749,-73.9407
+15,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-04,Gray,Cinnamon,,Ground Plane,,,Running,Indifferent,,40.846088,-73.940613
+16,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-05,Gray,Cinnamon,,Ground Plane,,,Running,Runs From,,40.846088,-73.940613
+21,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-10,Gray,Cinnamon,,Ground Plane,,,Running,Indifferent,,40.846185,-73.940613
+25,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-14,Gray,Gray,,Ground Plane,,,Running,Indifferent,,40.846332,-73.940369
+26,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-15,Gray,White,,Ground Plane,,,Running,Indifferent,,40.846458,-73.94103
+28,UPPER MANHATTAN,A,J. Hood Wright Park,2,A-02-17,Gray,Gray,,Ground Plane,,,Running,Indifferent,,40.846296,-73.941132
+38,UPPER MANHATTAN,A,Highbridge Park,3,A-03-03,Gray,White,,"Above Ground, Specific Location",2,in tree,Running,,,40.841212,-73.934827
+40,UPPER MANHATTAN,A,Highbridge Park,3,A-03-05,Gray,Cinnamon,,Ground Plane,,,Running,Runs From,"#5, #6 & #7 together in shrub area to East, a lot of acorns and Corona bottle caps on ground",40.841359,-73.934339
+41,UPPER MANHATTAN,A,Highbridge Park,3,A-03-06,Gray,Gray,,"Above Ground, Specific Location",2,in tree,Running,"Runs From, watchful","#5, #6 & #7 together in shrub area to East, a lot of acorns and Corona bottle caps on ground",40.841375,-73.934242
+42,UPPER MANHATTAN,A,Highbridge Park,3,A-03-07,Gray,Cinnamon,,"Above Ground, Specific Location",< 1,on log,Running,Runs From,"#5, #6 & #7 together in shrub area to East, a lot of acorns and Corona bottle caps on ground",40.841375,-73.934242
+43,UPPER MANHATTAN,A,Highbridge Park,3,A-03-08,Gray,Cinnamon,,"Above Ground, Specific Location",3,in wall,Running,Runs From,"#8 & #9 saw together at start of river overlook, hiding in cracks of cement wall! so cool!",40.842308,-73.933061
+47,UPPER MANHATTAN,A,Highbridge Park,3,A-03-12,Gray,White,,Ground Plane,,,Running,Runs From,,40.842795,-73.933002
+48,UPPER MANHATTAN,A,Highbridge Park,3,A-03-13,Gray,Cinnamon,,Ground Plane,,,Running,,,,
+49,UPPER MANHATTAN,A,Highbridge Park,3,A-03-14,Gray,Cinnamon,,Ground Plane,,,Running,"Runs From, watches us in short tree",Loud sparrows in tree,40.842327,-73.934269
+59,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-08,Gray,White,,Ground Plane,,,Running,Runs From,,40.817479,-73.949006
+64,UPPER MANHATTAN,A,St. Nicholas Park,4,A-04-13,Gray,White,,Ground Plane,,,Running,Indifferent,,40.816425,-73.949474
+67,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-01,Gray,Gray,,Ground Plane,,,Running,Runs From,,,
+68,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-02,Gray,Gray,,Ground Plane,,,Running,Runs From,,,
+69,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-03,Gray,Gray,,Ground Plane,,,Running,Indifferent,,,
+73,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-07,Gray,Gray,,Ground Plane,,,Running,Indifferent,Forever wild section,,
+84,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-18,Gray,Gray,,Ground Plane,,,Running,Indifferent,,,
+85,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-19,Gray,Gray,,"Above Ground, Specific Location",,Tree,Running,Indifferent,,,
+86,UPPER MANHATTAN,A,Riverside Park (Section Near Grant Memorial),5,A-05-20,Gray,Gray,,Ground Plane,,,Running,Indifferent,,,
+110,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-16,Gray,Gray,,Ground Plane,,,Running,,Ran up the the 3rd baseline of a Little League field. Wrong way!,40.804253,-73.944121
+111,UPPER MANHATTAN,A,Marcus Garvey Park,6,A-06-17,Gray,Gray,,Ground Plane,,,Running,,Scampered across path,40.803758,-73.94433
+133,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-05,Gray,,,"Ground Plane, Specific Location",,Farragut Lawn,Running,Indifferent,"Many pigeons lounging on lawn, tourist taking picture",40.74288,-73.987663
+139,CENTRAL MANHATTAN,B,Madison Square Park,7,B-07-11,Gray,,,"Ground Plane, Above Ground",1,on bench,Running,Indifferent,"First seen on bench. Then jumped to ground, ran across path and onto lawn in search of food.",40.741862,-73.988797
+141,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-02,Gray,Gray,,Ground Plane,,,Running,Indifferent,,40.735847,-73.990115
+148,CENTRAL MANHATTAN,B,Union Square Park,8,B-08-09,Gray,,,,,,Running,Runs From,,40.735587,-73.990367
+236,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-05,Gray,Gray,,Ground Plane,,,Running,Indifferent,,,
+262,CENTRAL MANHATTAN,B,Tompkins Square Park,11,B-11-31,Gray,Gray,,Ground Plane,,,Running,,,,
+291,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-01,Gray,Gray,,Ground Plane,,,Running,Indifferent,Nibbling on shrubs?,40.725738,-73.972105
+292,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-02,Black,Black,,Ground Plane,,,Running,,,40.722614,-73.972894
+294,CENTRAL MANHATTAN,B,John V. Lindsay East River Park,12,B-12-04,Gray,Gray,,"Ground Plane, Above Ground",,,Running,,Siblings? (with #3) Playing (with #3) in fenced yard,40.72263,-73.973109
+308,LOWER MANHATTAN,C,Seward Park,14,C-14-06,Gray,Cinnamon,,Ground Plane,,,Running,Indifferent,"Medium bushy, maybe a little younger, agile, sprightly",40.715033,-73.989609
+309,LOWER MANHATTAN,C,Seward Park,14,C-14-07,Gray,Cinnamon,,Ground Plane,,,Running,Indifferent,Too quick,40.715208,-73.989534
+310,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-01,Gray,,,Above Ground,20,,Running,Runs From,Frantically zig-zagging whilst clutching a mid-afternoon snack,40.712159,-73.979415
+318,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-09,Gray,Cinnamon,,Above Ground,8,,Running,,Meandering among the branches,40.711866,-73.97976
+319,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-10,Gray,Gray,,Above Ground,8,,Running,Approaches,"Came by to make sure we had proper Sighter buttons, looks like a Gerald",40.71174,-73.980539
+322,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-13,Gray,Black,,"Ground Plane, Above Ground",30,,Running,,"#13, #14 & #15: Scattering and teasing a Shih Tzu that chased them, runs from dog",40.711417,73.977767
+323,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-14,Gray,Black,,"Ground Plane, Above Ground",30,,Running,,"#13, #14 & #15: Scattering and teasing a Shih Tzu that chased them, runs from dog",40.711421,-73.977692
+324,LOWER MANHATTAN,C,Corlears Hook Park,15,C-15-15,Gray,Black,,"Ground Plane, Above Ground",30,,Running,,"#13, #14 & #15: Scattering and teasing a Shih Tzu that chased them, runs from dog",40.711409,-73.977719
+327,LOWER MANHATTAN,C,Columbus Park,16,C-16-02,Gray,Cinnamon,,Ground Plane,,,Running,,,40.7159,-74.000167
+330,LOWER MANHATTAN,C,Teardrop Park,18,C-18-01,Gray,Cinnamon,,Ground Plane,,,Running,Runs From,"Ran up tree and down tree, tail vibration ÛÓ not a flag or twitch, kuk sound",40.716335,-74.015612
+340,LOWER MANHATTAN,C,City Hall Park,19,C-19-10,Gray,White,,"Ground Plane, Specific Location",,on City Hall back steps,Running,Indifferent,,40.712881,-74.005823
+345,LOWER MANHATTAN,C,City Hall Park,19,C-19-15,Gray,White,,Ground Plane,,,Running,,"Very active, darting around",40.713518,-74.006308
+355,LOWER MANHATTAN,C,Battery Park,20,C-20-07,Cinnamon,White,,Ground Plane,,,Running,Runs From,,40.704211,-74.015859
+358,LOWER MANHATTAN,C,Battery Park,20,C-20-10,Gray,"Cinnamon, White",,Ground Plane,,,Running,Indifferent,Skinny with tiny ears,40.704171,-74.015242
+387,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-13,Gray,Gray,,Ground Plane,,at Nassau (Avenue) / Henry (Street) ,Running,Runs From,,40.725397,-73.943297
+388,BROOKLYN,D,Msgr. McGolrick Park,21,D-21-14,Gray,Cinnamon,,Ground Plane,,,Running,Indifferent,,40.725197,-73.943273
+391,BROOKLYN,D,McCarren Park,22,D-22-03,Gray,White,,Ground Plane,,,Running,Runs From,Ran in from baseball field,40.721662,-73.953278
+393,BROOKLYN,D,McCarren Park,22,D-22-05,Cinnamon,,,Ground Plane,,,Running,Approaches,Running around,40.721941,-73.952947
+396,BROOKLYN,D,McCarren Park,22,D-22-08,Cinnamon,White,,Ground Plane,,,Running,Runs From,,40.721713,-73.95305
+399,BROOKLYN,D,McCarren Park,22,D-22-11,Gray,Gray,,Ground Plane,,,Running,Runs From,Ran out of park,40.722698,-73.953198
+407,BROOKLYN,D,McCarren Park,22,D-22-19,Cinnamon,"Gray, White",,Above Ground,20,,Running,,"Very small, climbed from one tree to another",40.721247,-73.951609
+414,BROOKLYN,D,McCarren Park,22,D-22-26,Gray,White,,Ground Plane,,,Running,Indifferent,Fast,40.720026,-73.953652
+416,BROOKLYN,D,McCarren Park,22,D-22-28,Gray,White,,Ground Plane,,,Running,Indifferent,Running against fence,40.720114,-73.952768
+425,BROOKLYN,D,McCarren Park,22,D-22-37,Gray,Gray,,Ground Plane,,,Running,Indifferent,"Turning around, trying to eat",40.721315,-73.950943
+429,BROOKLYN,D,McCarren Park,22,D-22-41,Cinnamon,Cinnamon,,Above Ground,,,Running,Indifferent,Skinny,40.721161,-73.950732
+431,BROOKLYN,D,McCarren Park,22,D-22-43,Gray,White,,Above Ground,10,,Running,Indifferent,Playing with another squirrel in a tree,40.721026,-73.950765
