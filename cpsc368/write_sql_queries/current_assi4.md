@@ -226,3 +226,22 @@ Find the books that have been read by every age group.
 [BACK TO TOP](#part-1-write-sql-query-to-solve)
 
 # Part 2 Evaluate SQL query
+
+1. Find all books which have never been borrowed.
+
+        SELECT DISTINCT b1.isbn
+        FROM Book b1, Borrows b2
+        WHERE b1.isbn = b2.bid AND b1.isbn <> b2.bid 
+
+I believe this is not correct, an example below could prove this:
+
+If we had isbn in {1,2,3}, bid of {1,2}. If the query above is ran, then yields to a following result:
+
+|   isbn |  bid | 
+|   :-: |   :-: |
+|   1   |   2   |
+|   2   |   1   |
+|   3   |   1   |
+|   3   |   2   |
+
+However, we did not have isbn 3 borrowed in the first place, while it is included in the select statement.
