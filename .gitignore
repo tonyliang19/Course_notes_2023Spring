@@ -3,7 +3,8 @@ math303/past_terms/
 math303/omer-term/
 .local/
 
-add_dir.sh
+
+*add_dir.sh
 
 *.OTTER_LOG
 .virtual_documents/
