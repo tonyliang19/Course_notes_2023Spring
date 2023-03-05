@@ -16,11 +16,11 @@ ls ${DOWNLOAD}
 # make the directory first
 if [ -d ${1} ]
 then
-	mv ${DOWNLOAD}/*.pdf $(pwd)/${1}
+	mv ${DOWNLOAD}/!(desktop.ini) $(pwd)/${1}
 	echo "Files moved to ${1}"
 else
 	mkdir -p ${1}
 	echo "${1} did not exists, created now"
-	mv ${DOWNLOAD}/*.pdf $(pwd)/${1}
+	mv ${DOWNLOAD}/!(dekstop.ini) $(pwd)/${1}
 	echo "Files sucessfully moved in ${1}"
 fi
