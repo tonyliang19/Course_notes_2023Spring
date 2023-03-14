@@ -4,3 +4,6 @@
 [submodule "stat540"]
 	path = stat540
 	url = https://github.com/tonyliang19/stat540.git
+[submodule "econ323/final_project"]
+	path = econ323/final_project
+	url = https://github.com/tonyliang19/econ323_final_project
